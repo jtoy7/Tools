@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Usage:
+# ./sum_columns.sh [FILE]
+
 # Check if the file is provided as an argument
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <file>"
